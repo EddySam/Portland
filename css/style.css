@@ -1,0 +1,13 @@
+li {
+    list-style-type: none;
+}
+body {
+    background: #e4e5e7;
+}
+form {
+    background: #fff;
+}
+.in-main{
+    background: #fff;
+   /*display: flex;*/
+}

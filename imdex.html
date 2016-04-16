@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <title>Portland</title>
+    <meta charset="UTF-8">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+          rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+            integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <i class="icon-reorder"></i>
+        <img src="images/logo.png" alt="logo">
+        <nav class="text-center">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Devices</a></li>
+                <li><a href="#">Delivery & Payment</a></li>
+                <li><a href="#">Guarantee</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+        <ul>
+            <li><a href="#"><i class="icon-shopping-cart"></i> CART <span>0</span> </a></li>
+            <li><a href="#">SIGN IN</a></li>
+        </ul>
+    </div>
+    <div class="dop-menu">
+        <ul>
+            <li><a href="#">TOP SALES</a></li>
+            <li><a href="#">BRAND FOCUS</a></li>
+            <li><a href="#">HI-TECH</a></li>
+            <li><a href="#">BEST SELLERS</a></li>
+            <li><a href="#">PROJECTS</a></li>
+        </ul>
+        <p>SUPPORT <input type="text" size="40" value="I’m looking for..."></p>
+    </div>
+</header>
+<section class="main-blurb">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-1"><a href="#" class="scroll-left"><i class="icon-angle-left"></i></a></div>
+
+            <div class="col-lg-5">
+                <h2>iPhone 6 32Gb<br/>Black</h2>
+
+                <p>At first, for some time, I was not able to answer him one word; but as he had taken me in his arms I
+                    held
+                    fast by him, or I should have fallen to the ground.</p>
+                <a href="#">BUY NOW</a>
+            </div>
+            <div class="col-lg-5"></div>
+            <div class="col-lg-1"><a href="#" class="scroll-right"><i class="icon-angle-right"></i></a></div>
+        </div>
+    </div>
+</section>
+<section class="sort-by">
+    <div class="container">
+        <form action="#">
+            <div class="sort-by col-small">
+                <label for="sort_by">
+                    Sort by:
+                </label>
+                <select name="sort_by" id="sort_by">
+                    <option selected>Best Match</option>
+                    <option value="1">val 1</option>
+                    <option value="2">val 2</option>
+                    <option value="3">val 3</option>
+                </select>
+            </div>
+            <div class="col-large">
+                <div class="keywords">
+                    <label for="keywords">Keywords</label>
+                    <input type="text" placeholder="Tablet" id="keywords">
+                </div>
+                <div class="price">
+                    <label for="min_val">Price</label>
+                    <input type="number" id="min_val">
+                    <span>-</span>
+                    <input type="number" id="max_val">
+                </div>
+                <div class="free-shipping">
+                    <label for="free_shipping">Free Shipping</label>
+                    <input type="checkbox" name="free_shipping" id="free_shipping">
+                </div>
+            </div>
+            <div class="ship-to col-small">
+                <label for="ship_to">
+                    Ship to:
+                </label>
+                <select name="ship_to" id="ship_to">
+                    <option value="usa" selected>USA</option>
+                    <option value="1">val 1</option>
+                    <option value="2">val 2</option>
+                    <option value="3">val 3</option>
+                </select>
+            </div>
+        </form>
+    </div>
+</section>
+<section class="main">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 Sidebar">
+                <ul>
+                    <li><a href="#">Top Seles</a></li>
+                    <li><a href="#">Brand Focus</a></li>
+                    <li><a href="#">Hi-Tech</a>
+                        <ul>
+                            <li><a href="#" cell phones</a> </li>
+                            <li><a href="#">cameras</a></li>
+                            <li><a href="#">computers</a></li>
+                            <li><a href="#">tv. audio</a></li>
+                            <li><a href="#">video games</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sale</a></li>
+                </ul>
+
+                <form name="available" action="#">
+                    <h3>AVAILABLE</h3>
+                    <input type="radio" name="products" checked="checked" value="In Storage"/>In
+                    Storage<span>45</span><br/>
+                    <input type="radio" name="products" value="In Online-Shop"/>In Online-Shop<span>12</span><br/>
+
+                    <h3>BRANDS <a href="#">ALL</a></h3>
+                    <input type="checkbox" name="brands" value="apple" checked="checked"/>Apple<span>32</span></br>
+                    <input type="checkbox" name="brands" value="jbl"/>JBL<span>14</span></br>
+                    <input type="checkbox" name="brands" value="bose"/>Bose<span>3</span></br>
+                    <input type="checkbox" name="brands" value="nest"/>Nest<span>5</span>
+                </form>
+                <form name="condition" action="#">
+                    <h3>condition<a href="#">SEE ALL</a></h3>
+                    <input type="checkbox" name="condition" value="new" checked="checked"/>New<br/>
+                    <input type="checkbox" name="condition" value="Manufacturer-Refurbished" />Manufacturer Refurbished<br/>
+                    <input type="checkbox" name="condition" value="Seller-Refurbished" />Seller Refurbished<br/>
+                    <input type="checkbox" name="condition" value="Used" checked="checked" />Used<br/>
+                    <input type="checkbox" name="condition" value="apple" />For Parts or not Working
+                </form>
+                <form name="available" action="#">
+                    <h3>DELIVERY OPTIONS</h3>
+                    <input type="radio" name="DELIVERY" checked="checked" value="In Storage"/>FREE
+                    <input type="radio" name="DELIVERY" value="prise"/>$4.99
+                </form>
+            </div>
+
+            <div class="col-lg-9 main-block text-center">
+                <div class="col-md-4"><div class="in-main"><img src="images/Sample03-01.jpg" alt=""><h4>Apple TV 32GB</h4><p class="color">BLACK</p><p class="for-prise">$49.99</p></div></div>
+                <div class="col-md-4"><div class="in-main"><img src="images/Sample03-2.jpg"><h4>Pebble Time</h4><p class="color">RED</p><p class="for-prise">$29.99</p></div></div>
+                <div class="col-md-4"><div class="in-main"><img src="images/Sample03-03.jpg"><h4>Zendure 4-Port USB</h4><p class="color">WHITE</p><p class="for-prise">$49.99</p></div></div>
+                <div class="col-md-4"><div class="in-main"><img src="images/sample03-04.jpg"><h4>Withings Smart Body Analyzer ws-50</h4><p class="color">BLACK</p><p class="for-prise">$39.99</p></div></div>
+                <div class="col-md-8"><div class="in-main"><img src="images/sample03-05_.png"><div class="jblcharge"> <h4>JBL CHARGE 2+</h4><p class="color">BLACK</p><a href="#">16 GB <span>BUY NOW</span></a> </div></div></div>
+                <div class="col-md-4"><div class="in-main"><img src="images/sample03-06.jpg"><h4>Ollo Clip New</h4><p class="color">SILVER</p><p class="for-prise">$19.99</p></div></div>
+                <div class="col-md-4"><div class="in-main"><img src="images/sample03-07.jpg"><h4>Fitbit Charge HR Heart Rate and Activity Tracker</h4><p class="color">BLACK</p><p class="for-prise">$19.99</p></div></div>
+                <div class="col-md-4"><div class="in-main"><img src="images/sample03-08.jpg"><h4>Apple Watch Sport 38mm Silver Aluminum Case</h4><p class="color">WHITE</p><p class="for-prise">$49.99</p></div></div>
+                <div class="col-md-4"><div class="in-main"><img src="images/sample03-09.jpg"><h4>Bose SoundLink On-Ear Headphones</h4><p class="color">WHITE</p><p class="for-prise">$119.99</p></div></div>
+                <div class="col-md-4"><div class="in-main"><img src="images/sample03-10.jpg"><h4>Sonos Play-1 Wireless HiFi System</h4><p class="color">BLACK</p><p class="for-prise">$99.99</p></div></div>
+                <div class="col-md-4"><div class="in-main clock"><img src="images/samle03-11_.png"><h4>Nest Learning Thermostat. 3rd Ceneration</h4><p class="for-prise">$49.99</p></div></div>>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+</div>
+</body>
+</html>
