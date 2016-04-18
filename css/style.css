@@ -331,7 +331,7 @@ header ul li a {
 }
 .main-block div{
     border-radius: 5px;
-    max-height: 355px;
+    max-height: 365px;
     overflow: hidden;
     margin-bottom: 25px;
 
@@ -346,8 +346,22 @@ header ul li a {
 }
 .jblcharge a{
     border: 2px solid #dfe4ee;
-    margin-top: 30px;
+    margin: 15px 25px;
     padding: 10px 30px;
     border-radius:20px ;
     color: #3a405b;
+    float: right;
 }
+.clock{
+    position: relative;
+}
+.text-clock {
+    position: absolute;
+    top: 40px;
+    padding: 0 15px;
+}
+.text-clock h4{
+    font-size: 14px;
+}
+.text-clock P{
+color:#6b6b69;}
