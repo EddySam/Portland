@@ -1,13 +1,353 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700);
+
+a:hover {
+    text-decoration: none
+}
+
+a {
+    text-decoration: none;
+}
+
 li {
     list-style-type: none;
 }
+
 body {
     background: #e4e5e7;
 }
+
 form {
     background: #fff;
 }
-.in-main{
+
+.in-main {
     background: #fff;
-   /*display: flex;*/
+    /*display: flex;*/
+}
+
+header {
+    background: #fff;
+}
+
+.for-logo {
+    float: left;
+}
+
+.for-logo i {
+    font-size: 20px;
+    padding: 37px 43px 0px 0px;
+    border-right: 1px solid #f0f2f7;
+}
+
+.for-logo img {
+    padding-left: 25px;
+}
+
+header {
+    padding: 38px 0px;
+    border-bottom: 1px solid #f0f2f7;
+
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+
+    color: #343e5c;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding: 0px 5px;
+}
+
+.right-card {
+    float: right;
+}
+
+.right-card li a {
+    text-decoration: none;
+
+}
+
+.right-card li:first-child a span {
+    padding: 6px 10px;
+    border-radius: 50%;
+    background: #e3e8f0;
+}
+
+.right-card li:first-child a i {
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.right-card li:last-child a {
+    border: 1px solid #e3e8f0;
+    border-radius: 35px;
+    padding: 10px 20px;
+    margin-left: 30px;
+}
+
+/****************   and header **********************/
+/*********************   dop-menu     ******************/
+
+.dop-menu {
+    background: #fff;
+    padding: 25px 0px 10px 0px;
+    margin: 0;
+}
+
+.dop-menu ul li {
+    display: inline-block;
+}
+
+.dop-menu ul li a {
+    text-decoration: none;
+    color: #b9bed1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    padding-right: 30px;
+}
+
+.dop-menu ul li:hover a {
+    color: #343e5c;
+}
+
+.main-blurb {
+    background: #1c1e23;
+}
+
+.main-blurb h2 {
+    font: 700 42px 'Montserrat', sans-serif;
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.main-blurb p {
+    font: 16px font-family : 'Crimson Text', serif;
+    color: #fff;
+    padding-bottom: 60px;
+}
+
+.main-blurb .col-lg-5 a {
+    padding: 15px 50px;
+    border-radius: 40px;
+    background: #2754eb;
+    color: #fff;
+}
+
+.main-blurb {
+    position: relative;
+}
+
+.main-blurb .col-lg-1 {
+    position: static;
+}
+
+.main-blurb .col-lg-1 a {
+    font-size: 32px;
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    padding: 0px 17px;
+    border: 2px solid #36383c;
+    border-radius: 50%;
+    display: none;
+}
+
+.main-blurb .row .col-lg-1 .slide-activ {
+    display: block;
+}
+
+/***************   sort-by   *************/
+.sort {
+    margin-top: 50px;
+    font: 11px 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+
+}
+
+.for-sort-bg {
+    border-radius: 3px;
+    background: #fff;
+    position: relative;
+}
+
+.sort .sort-by {
+    border-right: 2px solid #e4e5e7;
+}
+
+.sort .sort-by label {
+
+    color: #a1a8bd;
+    margin-right: 50px;
+
+}
+
+.sort .sort-by select {
+    padding: 0;
+    margin: 0;
+    width: 95px;
+    border: none;
+}
+
+.col-large {
+    margin-left: 30px;
+}
+
+.col-large .keywords label {
+    color: #a1a8bd;
+    padding-right: 25px;
+}
+
+.col-large .keywords input {
+    width: 160px;
+    border: 1px solid #e4e8f0;
+    background: #f0f2f7;
+    color: #d5d9e5;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.col-large .price label {
+    margin: 0px 15px 0px 25px;
+    color: #a1a8bd;
+}
+
+.col-large .price input {
+    width: 65px;
+    border: 1px solid #e4e8f0;
+    background: #f0f2f7;
+    border-radius: 20px;
+    color: #343e5c;
+    margin-top: 5px;
+}
+
+.free-shipping input {
+    margin-left: 30px;
+
+}
+
+.free-shipping label {
+    font-size: 13px;
+    color: #343e5c;
+}
+
+.ship-to {
+    border-left: 2px solid #e4e5e7;
+}
+
+.ship-to label {
+    color: #d9dbe3;
+    margin-left: 20px;
+}
+
+.ship-to select {
+    width: 70px;
+    border: none;
+    margin-left: 55px;
+}
+
+/****************Sidebar****************/
+.Sidebar {
+    padding-left: 0;
+}
+.Sidebar ul {
+    background: #fff;
+    border-radius: 5px;
+    margin: 0;
+    font: 13px 'Montserrat', sans-serif;
+}
+.Sidebar ul li {
+    border-bottom: 1px solid #dfe4ee;
+    padding: 15px 0px;
+}
+.Sidebar ul li a {
+    color: #343e5c;
+    padding-left: 15px;
+}
+.Sidebar ul li ul {
+    background: #f0f2f7;
+}
+
+.Sidebar ul li ul li a {
+    text-transform: uppercase;
+
+}
+.available {
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    font-size: 11px;
+    padding-bottom: 20px;
+}
+.available h3{
+    font-size: 11px;
+    padding: 20px 15px;
+    margin: 0 0 15px 0;
+    border-bottom: 1px solid #dfe4ee;
+    text-transform: uppercase;
+
+}
+.available .avail-for-h{
+    border-top: 1px solid #dfe4ee;
+    margin-top: 15px;
+}
+.available span {
+    float: right;
+    padding-right: 20px ;
+    margin-top: 5px;
+    color: #b8bfd3;
+}
+.available input {
+    font-size: 13px;
+    margin:  10px 20px;
+}
+.delivery {
+    padding-bottom: 45px;
+}
+.delivery .col-md-6:first-child{
+    border-right: 2px solid;
+
+}
+.main-block{
+    font-family: 'Montserrat', sans-serif;
+}
+.main-block img{
+    display: flex;
+}
+.main-block h4{
+    max-font-size: 16px ;
+}
+.main-block .color {
+    color: #b8bfd3;
+    font-size: 12px;
+}
+.for-prise{
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+.main-block div{
+    border-radius: 5px;
+    max-height: 355px;
+    overflow: hidden;
+    margin-bottom: 25px;
+
+}
+.jblcharge h4,.jblcharge p{
+    text-align: left;
+    padding-left: 20px;
+
+}
+.dop-jblcharge {
+    float: left;
+}
+.jblcharge a{
+    border: 2px solid #dfe4ee;
+    margin-top: 30px;
+    padding: 10px 30px;
+    border-radius:20px ;
+    color: #3a405b;
 }
